@@ -105,3 +105,35 @@
 
 
 // if else // 
+
+// if(shart) {
+//     // true
+// } else {
+//     // false
+// }
+
+// let a = 10
+// let b = 20
+
+// if (a == 10) {
+//     console.log('10');
+// } else if(a == 9) {
+//     console.log('9');
+// } else if(a == 5) {
+//     console.log('5');
+// } else {
+//     console.log('xato');
+// }
+
+// if (a == 10) {
+//     console.log("a to'g'ri");
+//     if(b == 15) {
+//         console.log("to'g'ri");
+//     } else {
+//         console.log("b xato");
+//     }
+// } else {
+//     console.log('a da xato');
+// }
+
+// alert("to'g'ri")
