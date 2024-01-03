@@ -55,11 +55,11 @@
 // let a = confirm("yoshing 18 dami ?")
 
 // let a =  prompt('write your name below')
-let age = +prompt('how old are you ?')
+// let age = +prompt('how old are you ?')
 // alert('natija')
 // // let b = parseInt(age)
 // console.log(a);
-console.log(age);
+// console.log(age);
 
 
 // let a = 15
@@ -68,3 +68,40 @@ console.log(age);
 // console.log(
 //     a / b
 // );
+
+
+// types of variables  number / string / boolean / object / undefined / null
+// NaN = not a number / undefined
+
+// let a = 20
+// let b = "salom"
+
+// let c = 20;
+
+// let g = null ;
+
+// // boolean = true / false
+
+// console.log(
+//     c == a
+// );
+
+// let a = alert("salom");
+// let b = confirm("darsimiz bohlandimi?");
+// let c = prompt("what is your name ?");
+
+// console.log(c);
+
+// console.log(a);
+// console.log(b);
+
+// let name = +prompt("what is your name");
+// let namsdase = +prompt("what is your name");
+
+// let varianOne = parseInt(name)
+// let varianTwo = parseFloat(name)
+
+// console.log(name);
+
+
+// if else // 
