@@ -47,7 +47,6 @@
 
 // console.log(f);
 
-
 // ogohlantiruvchilar // alert() / confirm() / prompt()
 
 // alert('salom')
@@ -61,14 +60,12 @@
 // console.log(a);
 // console.log(age);
 
-
 // let a = 15
 // let b = 25
 
 // console.log(
 //     a / b
 // );
-
 
 // types of variables  number / string / boolean / object / undefined / null
 // NaN = not a number / undefined
@@ -95,7 +92,6 @@
 // console.log(a);
 // console.log(b);
 
-// let name = +prompt("what is your name");
 // let namsdase = +prompt("what is your name");
 
 // let varianOne = parseInt(name)
@@ -103,8 +99,7 @@
 
 // console.log(name);
 
-
-// if else // 
+// if else //
 
 // if(shart) {
 //     // true
@@ -112,17 +107,22 @@
 //     // false
 // }
 
-// let a = 10
-// let b = 20
+// let number = +prompt();
+
+// if (number > 50) {
+//   console.log("katta");
+// } else {
+//   console.log("kichik");
+// }
 
 // if (a == 10) {
-//     console.log('10');
-// } else if(a == 9) {
-//     console.log('9');
-// } else if(a == 5) {
-//     console.log('5');
+//   console.log("10");
+// } else if (a == 9) {
+//   console.log("9");
+// } else if (a == 100) {
+//   console.log("5");
 // } else {
-//     console.log('xato');
+//   console.log("xato");
 // }
 
 // if (a == 10) {
@@ -137,3 +137,40 @@
 // }
 
 // alert("to'g'ri")
+
+// if (name == "Sarvar") {
+//   console.log("Welcome");
+// } else if (name == "Davlat") {
+//   console.log("Welcome");
+// } else {
+//   console.log("Good bye");
+// }
+
+// if (age > 18) {
+//   console.log("welcome ", name);
+// } else {
+//   console.log("good bye ", name);
+// }
+
+
+let balance = 10000
+
+let name = +prompt("chqa giram");
+
+console.log(
+    balance - name
+);
+
+console.log(name);
+
+// if (name == "Sarvar") {
+//   let age = +prompt("how old are you ?");
+
+//   if (age > 18) {
+//     console.log("welcome ", name);
+//   } else {
+//     console.log("good bye ", name);
+//   }
+// } else {
+//   console.log("Good bye");
+// }
