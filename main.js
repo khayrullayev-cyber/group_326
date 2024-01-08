@@ -152,16 +152,15 @@
 //   console.log("good bye ", name);
 // }
 
+// let balance = 10000
 
-let balance = 10000
+// let name = +prompt("chqa giram");
 
-let name = +prompt("chqa giram");
+// console.log(
+//     balance - name
+// );
 
-console.log(
-    balance - name
-);
-
-console.log(name);
+// console.log(name);
 
 // if (name == "Sarvar") {
 //   let age = +prompt("how old are you ?");
@@ -174,3 +173,66 @@ console.log(name);
 // } else {
 //   console.log("Good bye");
 // }
+
+// let name = "Alex";
+// let money = 10000;
+// let account = 7777;
+
+// let a = prompt("what is your name ?");
+
+// if (a == name) {
+//   let b = +prompt("write number of the cart ?");
+
+//   if (b == account) {
+//     let c = +prompt("how much money withdraw ?");
+
+//     if (c <= money) {
+//       alert(`Yechib olindi: ${c} $
+// Qoldi: ${money - c} $`);
+//     } else {
+//       alert("hisobingda yetarlicha mablag' mavjud emas ! ");
+//     }
+//   } else {
+//     alert("user is not defined !!!");
+//   }
+// } else {
+//   alert("user is not defined !!!");
+// }
+
+// let a = "salom";
+// let c = "ismim";
+
+// console.log(a + " " + "mening" + " " + c + " " + "Davlatshoh");
+// console.log(`${a} mening ${c} Davlatshoh`);
+
+// if (&& , ||)
+
+// let a = 80;
+// let b = "salom";
+
+// // if (a <= 15 && b == "salom") {
+// //   console.log("good");
+// // } else {
+// //   console.log("bad");
+// // }
+
+// if (a <= 15 || b == "salom") {
+//   console.log("good");
+// } else {
+//   console.log("bad");
+// }
+
+let a = "salom"
+// a.toLowerCase
+
+let name = prompt("what is your name ?");
+let age = +prompt("how old are you ?");
+let money = +prompt("how much money do you have ?");
+
+console.log(name.charAt(0));
+
+if (name.toLowerCase().charAt(0) == "a" && age > 20 && age < 40 && money >= 100 ) {
+    console.log("good");
+} else {
+    alert("go home ")
+}
