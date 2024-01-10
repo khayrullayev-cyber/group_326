@@ -222,17 +222,17 @@
 //   console.log("bad");
 // }
 
-let a = "salom"
-// a.toLowerCase
+// let a = "salom"
+// // a.toLowerCase
 
-let name = prompt("what is your name ?");
-let age = +prompt("how old are you ?");
-let money = +prompt("how much money do you have ?");
+// let name = prompt("what is your name ?");
+// let age = +prompt("how old are you ?");
+// let money = +prompt("how much money do you have ?");
 
-console.log(name.charAt(0));
+// if (name.toLowerCase().charAt(0) == "a" && age > 20 && age < 40 && money >= 100 ) {
+//     console.log("good");
+// } else {
+//     alert("go home ")
+// }
 
-if (name.toLowerCase().charAt(0) == "a" && age > 20 && age < 40 && money >= 100 ) {
-    console.log("good");
-} else {
-    alert("go home ")
-}
+
