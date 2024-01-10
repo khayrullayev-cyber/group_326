@@ -235,4 +235,131 @@
 //     alert("go home ")
 // }
 
+// object // array
 
+// let / var / const = key
+
+// key name = {
+//     key: value
+// }
+
+// let smartphone = {
+//   name: "Redmi note 13 ",
+//   kamera: "200 mp",
+//   memory: "128 gb",
+//   ram: "8gb + 8gb",
+//   color: "black",
+//   model: "Redmi",
+//   price: "300 $",
+//   year: 2024,
+//   batery: "6000 mAh",
+// };
+
+// smartphone.year = 2025
+// smartphone.color = "purpule"
+
+// smartphone.ekran = "90 ghg"
+// console.log(smartphone);
+
+// console.log(
+//     smartphone.model,
+//     smartphone.batery
+// );
+
+// let user = {
+//   name: "Ahmed",
+//   age: 18,
+//   gender: "male",
+//   email: "ahmed@gmail.com",
+//   password: "8888",
+//   adress: {
+//     country: "Uzbekistan",
+//     city: "Samarkand",
+//     street: "Yoshlar markazi",
+//     house: "50 uy",
+//   },
+//   work: {
+//     company: "Wepro",
+//     lavozim: "teacher"
+//   },
+//   isMarried: false
+// };
+
+// console.log(user.work.lavozim);
+
+// array
+
+// key name = [any]
+
+let arr = [
+  "Davlatshoh",
+  24,
+  "Miranshoh",
+  "Sarvar",
+  true,
+  false,
+  undefined,
+  null,
+  15,
+  15,
+  84,
+  816,
+  186,
+  18,
+  [
+    [
+      [
+        {},
+        {},
+        {
+          name: [],
+        },
+      ],
+    ],
+  ],
+];
+
+let a = [
+  [],
+  [],
+  [
+    {
+      name: "Davlatshoh",
+    },
+  ],
+];
+
+console.log(a[2][0].name);
+
+let t = [
+  [
+    [],
+    [],
+    [
+      [
+        {
+          a: [
+            {
+              name: "Davlatshoh",
+            },
+          ],
+        },
+      ],
+    ],
+    [
+      [
+        {
+          say: "salom",
+        },
+      ],
+    ],
+    [],
+    [
+      {
+        f: "mening ismim",
+      },
+    ],
+  ],
+];
+
+console.log(t);
