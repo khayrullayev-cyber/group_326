@@ -255,6 +255,10 @@
 //   batery: "6000 mAh",
 // };
 
+// let name = "redmi"
+// let kamera = "200mp"
+// let battery = 5000
+
 // smartphone.year = 2025
 // smartphone.color = "purpule"
 
@@ -291,75 +295,228 @@
 
 // key name = [any]
 
-let arr = [
+// let arr = [
+//   "Davlatshoh",
+//   24,
+//   "Miranshoh",
+//   "Sarvar",
+//   true,
+//   false,
+//   undefined,
+//   null,
+//   15,
+//   15,
+//   84,
+//   816,
+//   186,
+//   18,
+//   [
+//     [
+//       [
+//         {},
+//         {},
+//         {
+//           name: [],
+//         },
+//       ],
+//     ],
+//   ],
+// ];
+
+// let a = [
+//   [],
+//   [],
+//   [
+//     {
+//       name: "Davlatshoh",
+//     },
+//   ],
+// ];
+
+// console.log(a[2][0].name);
+
+// let t = [
+//   [
+//     [],
+//     [],
+//     [
+//       [
+//         {
+//           a: [
+//             {
+//               name: "Davlatshoh",
+//             },
+//           ],
+//         },
+//       ],
+//     ],
+//     [
+//       [
+//         {
+//           say: "salom",
+//         },
+//       ],
+//     ],
+//     [],
+//     [
+//       {
+//         f: "mening ismim",
+//       },
+//     ],
+//   ],
+// ];
+
+// console.log(t);
+
+// let arr = [
+//   [{ a: { price: 20 } }],
+//   [{ a: { price: 35 } }],
+//   [{ a: { price: 44 } }],
+// ];
+
+// let a = arr[0][0].a.price;
+// let b = arr[1][0].a.price;
+// let c = arr[2][0].a.price;
+
+// let total = a + b + c;
+
+// console.log(total);
+
+// array methods
+
+let obj = {
+  name: "Davlatshoh",
+};
+
+// obj.sername = "Pardaqulov"
+
+// console.log(obj);
+
+// arr[2] = 1999
+
+// qushish
+
+// arr.push("Davlatshoh", 1999, 78984, true);
+// arr.unshift("Sarvar", "Islom");
+
+// ayrish
+
+// arr.shift()
+// arr.shift()
+// arr.pop()
+// arr.pop()
+
+// let a = arr.splice(3, 1)
+// arr.splice(0, 1, "salom")
+
+// search
+let arr = [15, 15, 1581, 1818, 48, 4684, 8186, 1];
+let arrTwo = [
+  "salom",
   "Davlatshoh",
-  24,
-  "Miranshoh",
   "Sarvar",
-  true,
-  false,
-  undefined,
-  null,
-  15,
-  15,
-  84,
-  816,
-  186,
-  18,
-  [
-    [
-      [
-        {},
-        {},
-        {
-          name: [],
-        },
-      ],
-    ],
-  ],
+  "salom",
+  "Islom",
+  "salom",
+  "hello",
+  "salom",
 ];
 
-let a = [
-  [],
-  [],
-  [
-    {
-      name: "Davlatshoh",
-    },
-  ],
-];
+// let a =  arr.indexOf(1581)
+// let b = arr.length
+// let h = arr.concat('Hello', arrTwo)
 
-console.log(a[2][0].name);
+// let filtered = arr.filter((item) => {
+//   if (item > 100) {
+//     return item;
+//   }
+// });
 
-let t = [
-  [
-    [],
-    [],
-    [
-      [
-        {
-          a: [
-            {
-              name: "Davlatshoh",
-            },
-          ],
-        },
-      ],
-    ],
-    [
-      [
-        {
-          say: "salom",
-        },
-      ],
-    ],
-    [],
-    [
-      {
-        f: "mening ismim",
-      },
-    ],
-  ],
-];
+// let filter = arr.filter((item) => item > 100);
+// let t = arrTwo.filter((item) => item == "salom");
 
-console.log(t);
+// console.log(arr);
+// console.log(filtered);
+// console.log(filter);
+// console.log(t);
+
+// console.log(arrTwo);
+// // console.log(a);
+// console.log(b);
+
+// console.log(h);
+
+let numbers = [1000, 40, 75, 80, 9, 3, 1, 0, 4];
+
+// let s = numbers.sort();
+
+// let u = numbers.sort((a, b) => {
+//   return a - b;
+// });
+
+// console.log(numbers);
+// console.log(s);
+// console.log(u);
+
+let total = numbers.reduce((item, prev) => {
+    return item += prev
+}, 0)
+
+console.log(total);
+
+let arrCars = [
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+  {
+    name: "BMW",
+    price: "135 000 $",
+    color: "black",
+    year: 2023,
+  },
+]
