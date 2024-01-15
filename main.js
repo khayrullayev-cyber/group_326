@@ -410,113 +410,122 @@ let obj = {
 // arr.splice(0, 1, "salom")
 
 // search
-let arr = [15, 15, 1581, 1818, 48, 4684, 8186, 1];
-let arrTwo = [
-  "salom",
-  "Davlatshoh",
-  "Sarvar",
-  "salom",
-  "Islom",
-  "salom",
-  "hello",
-  "salom",
-];
+// let arr = [15, 15, 1581, 1818, 48, 4684, 8186, 1];
+// let arrTwo = [
+//   "salom",
+//   "Davlatshoh",
+//   "Sarvar",
+//   "salom",
+//   "Islom",
+//   "salom",
+//   "hello",
+//   "salom",
+// ];
 
-// let a =  arr.indexOf(1581)
-// let b = arr.length
-// let h = arr.concat('Hello', arrTwo)
+// // let a =  arr.indexOf(1581)
+// // let b = arr.length
+// // let h = arr.concat('Hello', arrTwo)
 
-// let filtered = arr.filter((item) => {
-//   if (item > 100) {
-//     return item;
-//   }
-// });
+// // let filtered = arr.filter((item) => {
+// //   if (item > 100) {
+// //     return item;
+// //   }
+// // });
 
-// let filter = arr.filter((item) => item > 100);
-// let t = arrTwo.filter((item) => item == "salom");
+// // let filter = arr.filter((item) => item > 100);
+// // let t = arrTwo.filter((item) => item == "salom");
 
-// console.log(arr);
-// console.log(filtered);
-// console.log(filter);
-// console.log(t);
+// // console.log(arr);
+// // console.log(filtered);
+// // console.log(filter);
+// // console.log(t);
 
-// console.log(arrTwo);
-// // console.log(a);
-// console.log(b);
+// // console.log(arrTwo);
+// // // console.log(a);
+// // console.log(b);
 
-// console.log(h);
+// // console.log(h);
 
-let numbers = [1000, 40, 75, 80, 9, 3, 1, 0, 4];
+// let numbers = [1000, 40, 75, 80, 9, 3, 1, 0, 4];
 
-// let s = numbers.sort();
+// // let s = numbers.sort();
 
-// let u = numbers.sort((a, b) => {
-//   return a - b;
-// });
+// // let u = numbers.sort((a, b) => {
+// //   return a - b;
+// // });
 
-// console.log(numbers);
-// console.log(s);
-// console.log(u);
+// // console.log(numbers);
+// // console.log(s);
+// // console.log(u);
 
-let total = numbers.reduce((item, prev) => {
-    return item += prev
-}, 0)
+// let total = numbers.reduce((item, prev) => {
+//     return item += prev
+// }, 0)
 
-console.log(total);
+// console.log(total);
 
-let arrCars = [
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-  {
-    name: "BMW",
-    price: "135 000 $",
-    color: "black",
-    year: 2023,
-  },
-]
+// let arrCars = [
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+//   {
+//     name: "BMW",
+//     price: "135 000 $",
+//     color: "black",
+//     year: 2023,
+//   },
+// ]
+
+let numbers = [5, 15, 51, 84, 84];
+let a = "Davlatshoh"
+
+numbers.unshift(15,18,81, "salom", "hello", a)
+
+console.log(
+  numbers
+);
