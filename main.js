@@ -521,11 +521,123 @@ let obj = {
 //   },
 // ]
 
-let numbers = [5, 15, 51, 84, 84];
-let a = "Davlatshoh"
+// let numbers = [5, 15, 51, 84, 84];
+// let a = "Davlatshoh"
 
-numbers.unshift(15,18,81, "salom", "hello", a)
+// numbers.unshift(15,18,81, "salom", "hello", a)
 
-console.log(
-  numbers
-);
+// console.log(
+//   numbers
+// );
+
+let juft = [];
+let salom = [];
+let toq = [];
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(i);
+//   console.log(arr[i]);
+
+//   if (arr[i] % 2 === 0) {
+//     juft.push(arr[i]);
+//   } else {
+//     toq.push(arr[i]);
+//   }
+// }
+
+// for (let item of arr) {
+//   console.log(item);
+
+//   if (item == "salom") {
+//     salom.push(item);
+//   }
+// }
+
+// for(let index in arr) {
+//   console.log(index);
+// }
+
+// console.log(juft);
+// console.log(toq);
+// console.log(salom);
+
+// let a = [];
+// let b = [];
+
+// for (let i = 0; i < 10; i++) {
+//   console.log("birinchi loop" + " " + i);
+
+//   for (let k = 0; k < 5; k++) {
+//     console.log("ikkinchi loop" + " " + k);
+//   }
+// }
+
+let cars = [
+  {
+    id: Math.random(),
+    name: "Damas",
+    company: "Chevrolet",
+  },
+  {
+    id: Math.random(),
+    name: "Nexia 3",
+    company: "Ravon",
+  },
+  {
+    id: Math.random(),
+    name: "Spark",
+    company: "Ravon",
+  },
+  {
+    id: Math.random(),
+    name: "Lacetti",
+    company: "Chevrolet",
+  },
+  {
+    id: Math.random(),
+    name: "BMW x6",
+    company: "BMW",
+  },
+  {
+    id: Math.random(),
+    name: "BMW m5",
+    company: "BMW",
+  },
+];
+
+let companyes = [
+  {
+    company: "BMW",
+    count: 0,
+  },
+  {
+    company: "Chevrolet",
+    count: 0,
+  },
+  {
+    company: "Ravon",
+    count: 0,
+  },
+];
+
+// for (let item of cars) {
+//   // console.log(item);
+
+//   for (let com of companyes) {
+//     console.log(com);
+
+//     if (item.company === com.company) {
+//       com.count++;
+//     }
+//   }
+// }
+
+// console.log(companyes);
+
+// let arr = [4, 16, 19, "salom", 22, 11, "salom", 144, 967, "salom", 19124];
+
+// let index = +prompt("any number");
+
+// arr.splice(index, 1)
+
+// console.log(index);
+// console.log(arr);
