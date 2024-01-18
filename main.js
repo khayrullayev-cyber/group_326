@@ -291,75 +291,148 @@
 
 // key name = [any]
 
-let arr = [
-  "Davlatshoh",
-  24,
-  "Miranshoh",
-  "Sarvar",
-  true,
-  false,
-  undefined,
-  null,
-  15,
-  15,
-  84,
-  816,
-  186,
-  18,
-  [
-    [
-      [
-        {},
-        {},
-        {
-          name: [],
-        },
-      ],
-    ],
-  ],
-];
+// let arr = [
+//   "Davlatshoh",
+//   24,
+//   "Miranshoh",
+//   "Sarvar",
+//   true,
+//   false,
+//   undefined,
+//   null,
+//   15,
+//   15,
+//   84,
+//   816,
+//   186,
+//   18,
+//   [
+//     [
+//       [
+//         {},
+//         {},
+//         {
+//           name: [],
+//         },
+//       ],
+//     ],
+//   ],
+// ];
 
-let a = [
-  [],
-  [],
-  [
-    {
-      name: "Davlatshoh",
-    },
-  ],
-];
+// let a = [
+//   [],
+//   [],
+//   [
+//     {
+//       name: "Davlatshoh",
+//     },
+//   ],
+// ];
 
-console.log(a[2][0].name);
+// console.log(a[2][0].name);
 
-let t = [
-  [
-    [],
-    [],
-    [
-      [
-        {
-          a: [
-            {
-              name: "Davlatshoh",
-            },
-          ],
-        },
-      ],
-    ],
-    [
-      [
-        {
-          say: "salom",
-        },
-      ],
-    ],
-    [],
-    [
-      {
-        f: "mening ismim",
-      },
-    ],
-  ],
-];
+// let t = [
+//   [
+//     [],
+//     [],
+//     [
+//       [
+//         {
+//           a: [
+//             {
+//               name: "Davlatshoh",
+//             },
+//           ],
+//         },
+//       ],
+//     ],
+//     [
+//       [
+//         {
+//           say: "salom",
+//         },
+//       ],
+//     ],
+//     [],
+//     [
+//       {
+//         f: "mening ismim",
+//       },
+//     ],
+//   ],
+// ];
 
-console.log(t);
+// console.log(t);
+
+// uyga vizifa
+// let arr = [
+//   [{ a: { price: 20 } }],
+//   [{ a: { price: 35 } }],
+//   [{ a: { price: 44 } }],
+// ];
+
+// let a = arr[0][0].a.price;
+// let b = arr[1][0].a.price;
+// let c = arr[2][0].a.price;
+
+// let total = a + b + c;
+
+// console.log(total);
+//
+
+// arr.push("Islom", 2008, 08, 15);
+// arr.unshift("Xayrullayev", 2008, "August");
+
+// arr.shift();
+// arr.shift();
+// arr.pop();
+// arr.pop();
+
+// let a = arr.splice(3, 10)
+// arr.splice(0, 1, "salom")
+
+// let arr = [2121, 1212, 12121, 21, 54, 214, 8, 5];
+// let arrTwo = ["Islom", "Hello", "Tashkent", "Salom", "Gaybulla"]
+
+// let a = arr.indexOf(2121)
+// let b = arr.length
+// let k = arr.concat('Salam', arrTwo)
+
+// let filtered = arr.filter(item => {
+//   if (item > 100) {
+//     return item
+//   }
+// })
+
+// let filter = arr.filter((item) => item > 100)
+
+// console.log(arr);
+// console.log(filtered);
+// console.log(filter);
+// console.log(arrTwo);
+// console.log(k);
+// console.log(a);
+
+// let numbers = [555, 85, 96, 445, 799, 21, 125, 30, 1, 2, 0, 7, 8, 5];
+
+// let s = numbers.sort();
+
+// let u = numbers.sort((a, b) => {
+  //   return a - b;
+  // });
+  
+  // console.log(numbers);
+  // console.log(s);
+  // console.log(u);
+  
+  // let total = numbers.reduce((item,prev) => {
+    //   return item += prev
+    // }, 0)
+    // console.log(total);
+    
+    let arr = ["salom", "salom", "salom", "Islom", "Wepro", "salom", "olma", "nok", "iphone", "salom", "hello"]
+    
+    let filtered = arr.filter((item) => item == salom )
+    
+    console.log(arr);
+    console.log(filtered);
