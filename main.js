@@ -255,6 +255,10 @@
 //   batery: "6000 mAh",
 // };
 
+// let name = "redmi"
+// let kamera = "200mp"
+// let battery = 5000
+
 // smartphone.year = 2025
 // smartphone.color = "purpule"
 
@@ -362,7 +366,7 @@
 //   ],
 // ];
 
-// console.log(t);
+console.log(t);
 
 // uyga vizifa
 // let arr = [
